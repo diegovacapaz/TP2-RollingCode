@@ -1,5 +1,12 @@
-let string = "";
+let text = "";
+let newInput;
 do{
-    string += prompt("Ingrese una frase: ") + "-";
+    newInput = prompt("Ingrese una frase: ");
+    if(newInput===null){
+        newInput = "";
+    }
+    if(newInput !== ""){
+        text += newInput + "-";
+    }
 }while(confirm("Desea continuar?"));
-document.write(string);
+document.write(text);
