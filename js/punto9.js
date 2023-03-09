@@ -17,4 +17,4 @@ for(let i = 1; i<=500; i++){
     }
     divisor++;
 }
->>>>>>> 8123ca033bd833f046097eefeac7d22ace5f1239
+
